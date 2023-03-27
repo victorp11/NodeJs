@@ -1,0 +1,23 @@
+{
+  "name": "multiplicar",
+  "version": "1.0.0",
+  "description": "Uso de tablas de multiplicar",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorp11/NodeJs.git"
+  },
+  "author": "Victor Ponce",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorp11/NodeJs/issues"
+  },
+  "homepage": "https://github.com/victorp11/NodeJs#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.7.1"
+  }
+}
