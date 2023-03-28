@@ -8,6 +8,12 @@ if(true){
 
 
 console.log(curso)
+let hola = 'saludar'
+//console.log(hola);
+
+for(let i = 0; i <=10;i++){
+
+}
 
 
 
