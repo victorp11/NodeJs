@@ -13,10 +13,10 @@ const menu = ()=>{
         console.log('==================\n'.green);
     
         console.log(`(1). Crear cliente`)
-        console.log(`(2). Borrar cliente`)
-        console.log(`(3). Lista de clientes`)
-        console.log(`(4). Actualiza cliente`)
-        console.log(`(0). Salir\n`)
+        console.log(`(2). Lista de clientes`)
+        //console.log(`(2). Borrar cliente`)
+        //console.log(`(4). Actualiza cliente`)
+        //console.log(`(0). Salir\n`)
     
         //Uso de std
         const readline = require('readline').createInterface({

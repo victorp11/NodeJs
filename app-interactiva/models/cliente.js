@@ -1,4 +1,5 @@
 
+//importamos el uso del paquete uuid
 const { v4: uuidv4 } = require('uuid');
 
 
@@ -6,12 +7,12 @@ class Cliente {
     id = ''
     nombre = ''
     email = ''
-    mascota = null
+    tipo_usuario = null
 
     constructor( nombre ){
         this.id = uuidv4();
         this.nombre = nombre;
-        this.mascota = null;
+        this.tipo_usuario = null;
     }
 }
 
