@@ -1,5 +1,3 @@
-const { rejects } = require('assert');
-const { resolve } = require('path');
 
 require('colors');
 
@@ -16,7 +14,7 @@ const menu = ()=>{
         console.log(`(2). Lista de clientes`)
         //console.log(`(2). Borrar cliente`)
         //console.log(`(4). Actualiza cliente`)
-        //console.log(`(0). Salir\n`)
+        console.log(`(0). Salir\n`)
     
         //Uso de std
         const readline = require('readline').createInterface({
@@ -30,7 +28,7 @@ const menu = ()=>{
             //console.log(opt)
             readline.close();
             resolve(opt);
-        })
+        });
     });
 }
 
